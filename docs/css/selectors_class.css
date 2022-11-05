@@ -4,16 +4,31 @@
 .color_blue {
   color: blue;
 }
-.back_color_yellow {
+div.back_color_yellow {
   background-color: yellow;
 }
 
-.box {
+.back_color_yellow_parent {
   background-color: yellow;
 }
-.box > .odd {
+.odd {
   color: green;
 }
-.box > .even {
+.even {
   color: blue;
+}
+
+#back_color_aqua {
+  background-color: aqua;
+}
+
+h3 {
+  color: brown;
+}
+
+.same_style_class {
+  color: skyblue;
+}
+#same_style_id {
+  color: aquamarine;
 }
