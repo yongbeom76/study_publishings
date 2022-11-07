@@ -37,3 +37,20 @@
   border-style: solid;
   border-color: blue rgba(255, 0, 0, 1) rgba(0, 255, 0, 1) seagreen;
 }
+.border-short {
+  border: 2px solid blue;
+}
+.border-short-left {
+  border-left: 10px solid red;
+}
+.border-short-bottom {
+  border-bottom: 2px dashed pink;
+}
+.round-border-5px {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+.round-border-20px {
+  border: 2px solid red;
+  border-radius: 20px;
+}
