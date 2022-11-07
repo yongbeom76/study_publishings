@@ -1,8 +1,9 @@
 html {
   font-family: "Open Sans", sans-serif;
+  background-color: #00539f;
 }
 body {
-  /* width: 600px; */
+  width: 600px;
   margin: 0 auto;
   background-color: #ff9500;
   padding: 0 20px 20px 20px;
@@ -17,7 +18,10 @@ h1 {
   font-size: 60px;
   text-align: center;
 }
-img {
-  display: block;
-  margin: 0 auto;
+
+.text_align_center {
+  text-align: center;
+}
+.div_body {
+  background-color: #ff9500;
 }
