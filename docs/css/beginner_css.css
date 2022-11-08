@@ -46,3 +46,8 @@
   display: flex;
   justify-content: center;
 }
+hr {
+  background-color: rgb(128, 0, 128);
+  height: 1px;
+  border: 0;
+}
