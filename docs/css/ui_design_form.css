@@ -1,0 +1,39 @@
+/* * {
+  border: 1px dotted gray;
+} */
+
+.notice-form {
+  border: 1px solid black;
+  padding: 20px 0;
+}
+.notice-title {
+  position: relative;
+  top: -34px;
+  left: 10px;
+  background-color: white;
+}
+
+.submit-button-wrap {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.submit-button {
+  width: 100px;
+}
+.horizontal-line {
+  margin: 25px 0;
+}
+.bottom-table * {
+  border: 1px solid black;
+}
+.bottom-table {
+  border: 1px solid black;
+  width: 100%;
+}
+.bottom-table-title {
+  width: 50%;
+}
+.button-wrap {
+  width: 7%;
+}
