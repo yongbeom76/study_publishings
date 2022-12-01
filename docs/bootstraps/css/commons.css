@@ -4,5 +4,8 @@ body {
 
 * {
   margin: 0.2rem;
-  padding: 0.4rem;
+}
+
+#dangerous-heading {
+  padding: 1rem;
 }
