@@ -1,11 +1,8 @@
 body {
-  padding: 1rem;
+	/* padding: 1rem; */
 }
 
 * {
-  margin: 0.2rem;
-}
-
-#dangerous-heading {
-  padding: 1rem;
+	/* margin: 0.1rem; */
+	border: 0.1rem solid gray;
 }
