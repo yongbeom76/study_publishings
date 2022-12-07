@@ -10,7 +10,7 @@
 			rel="stylesheet"
 			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
 			crossorigin="anonymous" />
-		<!-- <link rel="stylesheet" href="./css/commons.css" /> -->
+		<link rel="stylesheet" href="./css/commons.css" />
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 	</head>
 	<body>
@@ -20,22 +20,29 @@
 			</h3>
 		</div>
 		<hr />
-		<div class="fs-3">Collapses</div>
 
 		<div class="container">
-			<div>
-				<a class="btn btn-primary" href="#collapseTarget" data-bs-toggle="collapse">link with href</a>
-				<button class="btn btn-primary" data-bs-target="#collapseTarget" data-bs-toggle="collapse">
-					link with data-bs-target
-				</button>
+			<div class="fs-3">Navigations Bar</div>
+			<div class="container">
+				<nav class="navbar">
+					<a href="" class="navbar-brand">
+						<img
+							src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+							alt=""
+							width="40" />
+						Brand
+					</a>
+					<div class="navbar-nav">
+						<a href="" class="nav-link">Home</a>
+						<a href="" class="nav-link">Feature</a>
+						<a href="" class="nav-link">Pricing</a>
+					</div>
+				</nav>
 			</div>
-			<div class="collapse" id="collapseTarget">
-				<div class="card card-body">
-					모로코, 승부차기로 스페인 꺾고 첫 8강...'하무스 헤트트릭' 포르투갈도 8강
-				</div>
-			</div>
+			<hr class="hr" />
 		</div>
 		<hr />
+
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
